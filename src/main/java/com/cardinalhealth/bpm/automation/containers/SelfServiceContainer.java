@@ -14,8 +14,6 @@ public class SelfServiceContainer {
     
    // @FindBy(how = How.CLASS_NAME, using = ".navbar-nav")
 	
-	//@FindBy(how = How.CSS, using = ".input_controls")
-	//public List<WebElement> titleRequest;
     
     @FindBy(how = How.CLASS_NAME, using = "drop-zone-content")
 	public WebElement navigationBar;
